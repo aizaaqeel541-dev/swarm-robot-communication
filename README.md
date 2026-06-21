@@ -32,5 +32,3 @@ Each node also has a simulated battery that drains over time. When a node's batt
 1. Install dependencies:
    ```bash
    pip install pygame
-
-   nova.png  lyra.png  vortex.png  orion.png  aura.png  glitch.png
