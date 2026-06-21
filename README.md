@@ -30,9 +30,20 @@ Each node also has a simulated battery that drains over time. When a node's batt
 ## How to Run
 
 1. Install dependencies:
-   ```bash
-   pip install pygame
+`pip install pygame`
+2. Run the simulation:
+`python main.py`
 
-   ##Run the simulation
-   python main.py
-   
+## Demo Video
+
+[Watch the demo](demo-video.mp4)
+
+## Optional: Custom Robot Sprites
+
+By default, each robot is rendered as a colored circle. To use custom sprites instead, add PNG images named after each robot (lowercase) in the project root: nova.png, lyra.png, vortex.png, orion.png, aura.png, glitch.png
+
+If an image file isn't found, the simulation automatically falls back to a colored circle — no code changes needed.
+
+## Project Context
+
+Developed as part of the Computer Communication and Networks coursework, demonstrating peer-to-peer protocol design, real-time event logging, and fault simulation in a multi-agent robotic system.
