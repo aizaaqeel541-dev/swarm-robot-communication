@@ -32,3 +32,7 @@ Each node also has a simulated battery that drains over time. When a node's batt
 1. Install dependencies:
    ```bash
    pip install pygame
+
+   ##Run the simulation
+   python main.py
+   
